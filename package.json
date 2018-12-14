@@ -1,0 +1,29 @@
+{
+  "name": "tosshibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "TS_NODE_FILES=true nodemon --exec ts-node -- --project ./tsconfig.json ./src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayJayDee/TosshiBot.git"
+  },
+  "author": "JayJayDee <jindongp@gmail.com> (http://chatpot.chat)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayJayDee/TosshiBot/issues"
+  },
+  "homepage": "https://github.com/JayJayDee/TosshiBot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.30.3",
+    "nodemon": "^1.18.8",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
